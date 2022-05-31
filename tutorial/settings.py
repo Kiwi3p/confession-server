@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-46yg55!8*aplcs#+y94in&x1)10rv$f4mo+p69$1iged8qxwuv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://bar-confessions-server.herokuapp.comg"]
 
 CORS_ALLOWED_ORIGINS = [
 "https://domain.com",
