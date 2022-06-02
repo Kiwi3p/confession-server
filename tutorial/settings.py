@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-46yg55!8*aplcs#+y94in&x1)10rv$f4mo+p69$1iged8qxwuv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["https://bar-confessions-server.herokuapp.comg"]
+ALLOWED_HOSTS = [".herokuapp.com"]
 
 CORS_ALLOWED_ORIGINS = [
 "https://domain.com",
