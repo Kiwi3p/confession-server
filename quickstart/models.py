@@ -20,3 +20,10 @@ class DRFPost(models.Model):
 
 	def __str__(self):
 		return self.answer
+
+class Questions(models.Model):
+	question = models.CharField(max_length = 500)
+
+
+	def __str__(self):
+		return self.question		
