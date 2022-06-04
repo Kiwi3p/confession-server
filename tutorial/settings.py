@@ -36,6 +36,7 @@ CORS_ALLOWED_ORIGINS = [
 "https://api.domain.com",
 "http://localhost:3000",
 "https://barconfessions.netlify.app",
+"http://www.bar-confessions.com",
 "http://127.0.0.1:9000"
 ]
 
